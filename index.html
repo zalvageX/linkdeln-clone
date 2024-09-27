@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkedln Copy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"
+          ><img src="images/linkedin 1.png"
+        /></a>
+        <div class="search-box">
+          <img src="images/magnifying-glass 1.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="navbar-centre">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="images/home (2) 1.png" /> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/Group.png" alt=""><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/suitcase 1.png" /> <span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" alt=""></i> <span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/Bell_fill.png" /> <span>Notifications</span></a
+            >
+          </li>
+        </ul>
+        <div class="profile-el">
+            <div class="online">
+                <img
+                  src="images/Profile img.png"
+                  class="nav-profile-img"
+                  onclick="toggleMenu()"
+                />
+                <div class="online-el">
+                  <p>Me</p><img src="images/Arrow_drop_down_big.png" />
+                </div>
+            </div>
+        </div>
+        <!--------------profile-drop-down-menu----------------->
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <div class="user-info-header">
+              <img src="images/Profile img.png" />
+              <div>
+                <h3>Chike Okeke</h3>
+                <p>Product Designer | Frontend Developer · Freelance</p>
+              </div>
+            </div>
+            <a href="profile.html">View Profile</a>
+          </div>
+          <hr />
+          <h3>Account</h3>
+          <div class="user-acct">
+            <img src="images/delivery-box 1.png" />
+            <a href="#">Unlock 1 month of Premiuim</a>
+          </div>
+          <!-- <a href="#" class="profile-menu-links">
+            <img src="images/Feedback.png" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a> -->
+          <a href="#" class="profile-menu-links">
+            <p>Settings & Privacy</p>
+          </a>
+          <a href="#" class="profile-menu-links">
+            <p>Help</p>
+          </a>
+          <a href="#" class="profile-menu-links">
+            <p>Language</p>
+          </a>
+          <hr>
+          <h3>Manage</h3>
+          <a href="#" class="profile-menu-links">
+            <p>Post & Activity</p>
+          </a>
+          <a href="#" class="profile-menu-links">
+            <p>Job Posting Account</p>
+          </a>
+          <hr>
+          <a href="#" class="profile-menu-links">
+            <p>Sign Out</p>
+          </a>
+          <!-- <a href="#" class="profile-menu-links">
+            <img src="images/Sign_out_squre_fill.png" />
+            <p>Logout</p>
+            <span>></span>
+          </a> -->
+        </div>
+      </div>
+      </div>
+      <div class="navbar-right">
+        <div class="buisness">
+            <img src="images/menu 3.png" alt="">
+            <div class="buisness-el">
+                <p>For Buisness</p><img src="images/Arrow_drop_down_big.png" />
+            </div>
+        </div>
+        <div class="offer-link">
+            <a href="#">Don't miss:</a> <br>
+            <a href="#">Premium for NGN0</a>
+        </div>
+       
+      </div>
+      
+    </nav>
+    <!----------navbar close----------- -->
+
+    <div class="container">
+      <!----------left sidebar----------- -->
+      <section class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img
+            src="images/cover.png"
+            alt="man sitting in a room"
+            width="100%" height="60px"
+          />
+          <div class="sidebar-profile-info">
+            <img src="images/Profile img.png" alt="profile image" />
+            <a href="#"><h1>Christopher Okeke</h1></a>
+            <h3>Freelance Web Developer</h3>
+          </div>
+
+          <div class="reaction-el">
+            <ul>
+                <li>Profile views<span>52</span></li>
+                <li>Connections <span>205</span></li>
+                <li>Grow your netwwork</li>
+              </ul>
+          </div>
+            
+          
+          <div class="sidebar-profile-link">
+            <p>Grow professionally with premiuim</p>
+            <a href="#"><img src="images/delivery-box 1.png" />
+                <p>Try 1 month for NGN0</p>
+            </a>
+          </div>
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="images/Bookmark_fill.png" />
+                <p>Saved items</p>
+            </a>
+          </div>
+          <!-- <div class="sidebar-profile-link">
+            <a href="#"><img src="images/Bookmark_fill.png" /> My Items</a>
+            <a href="#"><img src="images/delivery-box 1.png" /> Try Premium</a>
+          </div> -->
+        </div>
+
+        <section class="sidebar-activity" id="sidebarActivity">
+          <h3>RECENT</h3>
+          <a href="#"><img src="images/Refresh.png" /> Web development</a>
+          <a href="#"><img src="images/Refresh.png" /> User Interface UI</a>
+          <a href="#"><img src="images/Refresh.png" /> User Experience UX</a>
+          <a href="#"><img src="images/Refresh.png" /> Learn Online</a>
+          <a href="#"><img src="images/Refresh.png" /> Code Better</a>
+          <h3>GROUPS</h3>
+          <a href="#"><img src="images/Group.png" /> Web design</a>
+          <a href="#"><img src="images/Group.png" /> UI UX Learners</a>
+          <a href="#"><img src="images/Group.png" /> HTML & CSS Learners</a>
+          <a href="#"><img src="images/Group.png" /> JavaScript Group</a>
+          <h3>HASHTAG</h3>
+          <a href="#"><img src="images/hashtag.png" /> webdevelopment</a>
+          <a href="#"
+            ><img src="images/hashtag.png" /> userinterface/experience</a
+          >
+          <a href="#"><img src="images/hashtag.png" /> onlinelearning</a>
+          <div class="discover-more-links">
+            <a href="#"> Discover more</a>
+          </div>
+        </section>
+        <p id="showMoreLink" onclick="toggleActivity()">Show more <b>+</b></p>
+      </section>
+
+      <!----------main content----------- -->
+      <div class="main-content">
+        <section class="create-post">
+          <div class="create-post-input">
+            <img src="images/Profile img.png" />
+            <textarea rows="2" placeholder="Start a post, try writing with AI"></textarea>
+          </div>
+          <div class="create-post-links">
+            <li><img src="images/cam.png" />Media</li>
+            <li><img src="images/zoom 1.png" />Contribute expertise</li>
+            <li><img src="images/comment_fill.png" />Write article</li>
+            <!-- <li>Post</li> -->
+          </div>
+        </section>
+        <div class="sort-by">
+          <hr />
+          <p>
+            Sort by:
+            <span>Top <img src="images/Arrow_drop_down_big.png" /></span>
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user 1.png" />
+            <div>
+              <h1>Akuba Joyce</h1>
+              <small>Founder and CEO at Akuba Group | Auroua Investment</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            I've come to believe that each of us has a personal calling that's
+            unique as a fingerprint and that the best way to succeed is to
+            discover what you love and then find a way to offer it to other in
+            the form of service, work and also allowing the energy of the
+            universe to lead you.
+          </p>
+          <img src="images/post 4.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbs.png" />
+              <img src="images/like.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Taiwo Ojo and 62 others</span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user 1.png" class="post-activity-user-icon" />
+              <img
+                src="images/Arrow_drop_down_big.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/thumbs.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/message.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share  fill.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send 1.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user 2.png" />
+            <div>
+              <h1>Munachi Precious</h1>
+              <small>Lead Project Manager at Steel Consult | Steel Group</small>
+              <small>4 hours ago</small>
+            </div>
+          </div>
+          <p>
+            There's no greater push than self determination and beleiving in the
+            sheer power of team work because togehter as a team... there's
+            nothing stopping you from greatness.
+          </p>
+          <img src="images/Post 1.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbs.png" />
+              <img src="images/like.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Diamond Okeke and 62 others</span>
+            </div>
+            <div>
+              <span>60 comments &middot; 48 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user 2.png" class="post-activity-user-icon" />
+              <img
+                src="images/Arrow_drop_down_big.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/thumbs.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/message.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share  fill.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send 1.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user 4.png" />
+            <div>
+              <h1>Jide Ojo</h1>
+              <small>Creative head at MidHousePro | Anre Ltd</small>
+              <small>45 minutes ago</small>
+            </div>
+          </div>
+          <p>
+            Constantly defying expectations and exceeding milestones is what we
+            do. Join us today and partner iwth us as we break barriers and set
+            new records.
+          </p>
+          <img src="images/Post 2.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbs.png" />
+              <img src="images/like.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Kobe O. and 30 others</span>
+            </div>
+            <div>
+              <span>8 comments &middot; 12 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user 4.png" class="post-activity-user-icon" />
+              <img
+                src="images/Arrow_drop_down_big.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/thumbs.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/message.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share  fill.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send 1.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="images/user 3.png" />
+            <div>
+              <h1>Vivian George</h1>
+              <small>Founder and CEO at BIOxIDE | Bioxide Investment</small>
+              <small>23 minutes ago</small>
+            </div>
+          </div>
+          <p>Deal done. We just partnered with Tesla.</p>
+          <img src="images/Post 3.png" width="100%" />
+
+          <div class="post-stats">
+            <div>
+              <img src="images/thumbs.png" />
+              <img src="images/like.png" />
+              <img src="images/clap.png" />
+              <span class="liked-users">Elon Musk and 201 others</span>
+            </div>
+            <div>
+              <span>102 comments &middot; 69 shares</span>
+            </div>
+          </div>
+          <div class="post-activity">
+            <div>
+              <img src="images/user 3.png" class="post-activity-user-icon" />
+              <img
+                src="images/Arrow_drop_down_big.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="images/thumbs.png" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/message.png" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/share  fill.png" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="images/send 1.png" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------right sidebar----------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <div class="sidebar-feed">
+            <h1>Add to your feed</h1>
+            <img src="images/Info.png"/>
+          </div>
+          <div class="sidebar-people-row">
+                
+            <div class="people-el">
+                <img src="images/user 1.png">
+                <div>
+                    <h2>Akuba Joyce</h2>
+                    <p>Company &middot; Dangote | Marketing Head </p>
+                    <a href="#">+ Follow</a>
+                </div>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <div class="people-el">
+              <img src="images/user 1.png">
+              <div>
+                <h2>Taiwo Ojo</h2>
+                <p>Company &middot; Jumia | Branch Manager</p>
+                <a href="#">+ Follow</a>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <div class="people-el">
+                <img src="images/user 1.png">
+                <div>
+                    <h2>Osita Okeke</h2>
+                    <p>Software Dev | Frontend Engineer | ReactJs | NextJs </p>
+                    <a href="#">+ Follow</a>
+                </div>
+            </div>
+          </div>
+
+          <!-- <a href="#">Dangote is the richest man in Africa</a>
+          <span>12h ago &middot; 10,934 readers</span> -->
+
+          <a href="#" class="read-more-link">View all recommendations</a>
+        </div>
+
+        <div class="sidebar-ad">
+          <small>Ad &middot; &middot; &middot;</small>
+          <p>Master the 5 principles of wed design</p>
+          <div>
+            <img src="images/Profile img.png" />
+            <img src="images/xiaomi.png" />
+          </div>
+          <span>Brand and Demand in Xiaomi</span>
+          <a href="#" class="ad-link"> Learn More</a>
+        </div>
+
+        <div class="sidebar-usefull-links">
+          <a href="#">About</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Help Centre</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Advertising</a>
+          <a href="#">Get The App</a>
+          <a href="#">More</a>
+
+          <div class="copyright-msg">
+            <img src="images/linkedin 1.png" />
+            <p>Linkedln &#169; 2024. All right resevered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let profileMenu = document.getElementById("profileMenu");
+
+      function toggleMenu() {
+        profileMenu.classList.toggle("open-menu");
+      }
+    </script>
+    <script>
+      let sidebarActivity = document.getElementById("sidebarActivity");
+      let moreLink = document.getElementById("showMoreLink");
+
+      function toggleActivity() {
+        sidebarActivity.classList.toggle("open-activity");
+
+        if (sidebarActivity.classList.contains("open-activity")) {
+          moreLink.innerHTML = "Show less <b>-</b>";
+        } else {
+          moreLink.innerHTML = "Show more <b>+</b>";
+        }
+      }
+    </script>
+  </body>
+</html>
